@@ -46,17 +46,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.header{
+    background: linear-gradient(to right,red,yellow);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    background: linear-gradient(to right,aqua,#84C1FF) ;
+    border:5px,solid,#000079;
+}
+.footer{
+    background: linear-gradient(to right,aquamarine,aqua);
+    font-style: bold;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+ol{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 li {
     width:400px;
     padding-bottom: 2px;
-    background: #E6E6F2;
     border: 5px solid #000079;
     border-radius: 15px;
     text-align: center;
+    margin: 15px;
 }
 li:hover{
-    margin-left: 10px;
+    margin-left: 20px;
+    color: yellow;
+    background: linear-gradient(to right,#00644b,#009771);
 }
 .deleteBtn{
     display: block;
@@ -68,13 +98,8 @@ li:hover{
 .deleteBtn:hover{
     font-size: 15px;
 }
-.header{
-    background: linear-gradient(to right,red,yellow);
-    font-size: 40px;
-}
-.footer{
-    background: linear-gradient(to right,aquamarine,aqua);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-size: 40px;
-    text-align: center;
+.filterCondition{
+    width: 800px;
+    margin: 0 auto;
+    border: 5px solid black;
 }

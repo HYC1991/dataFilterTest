@@ -11,10 +11,11 @@
 <body>
     <div class="wrap">
         <div class="header">
-            <h1>員工資料系統</h1>
+            <h1>API Tech Co., Ltd</h1>
+            <p>員工資料系統</p>
         </div>
         <div class="content">
-            <div>
+            <div class="filterCondition">
                 <h2>新增員工資料:</h2>
                 <input type="text" placeholder="員工編號" class="textEmpno">
                 <input type="text" placeholder="員工姓名" class="textEmpname">
@@ -28,7 +29,7 @@
                     <option value="false">員工狀態:false</option>
                 </select>
                 <input type="button" value="新增資料" class="newDataBtn">
-                <form action="main.js">
+                <form action="main.js" class="form">
                     <label for="filter">篩選資料:</label>
                     <select name="filter" id="filter" class="selector"> 
                         <option >全部資料</option>

@@ -11,7 +11,7 @@
 <body>
     <div class="wrap">
         <div class="header">
-            <h1></h1>
+            <h1>員工資料系統</h1>
         </div>
         <div class="content">
             <div>
@@ -28,18 +28,18 @@
                     <option value="false">員工狀態:false</option>
                 </select>
                 <input type="button" value="新增資料" class="newDataBtn">
+                <form action="main.js">
+                    <label for="filter">篩選資料:</label>
+                    <select name="filter" id="filter" class="selector"> 
+                        <option >全部資料</option>
+                        <option value="男生">男生</option>
+                        <option value="女生">女生</option>
+                        <option value=true>員工狀態正常</option>
+                        <option value=false>員工狀態有誤</option>
+                        <input type="button" value="篩選" class="filterBtn">
+                    </select>
+                </form>
             </div>
-            <form action="main.js">
-                <label for="filter">篩選資料:</label>
-                <select name="filter" id="filter" class="selector"> 
-                    <option >全部資料</option>
-                    <option value="男生">男生</option>
-                    <option value="女生">女生</option>
-                    <option value=true>員工狀態正常</option>
-                    <option value=false>員工狀態有誤</option>
-                    <input type="button" value="篩選" class="filterBtn">
-                </select>
-            </form>
             <ol class="list">
                 <li>系統運行中....<input type="button" value="刪除" class="deleteBtn" title="刪除此筆資料"></li>
             </ol>

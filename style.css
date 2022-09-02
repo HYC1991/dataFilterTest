@@ -68,3 +68,13 @@ li:hover{
 .deleteBtn:hover{
     font-size: 15px;
 }
+.header{
+    background: linear-gradient(to right,red,yellow);
+    font-size: 40px;
+}
+.footer{
+    background: linear-gradient(to right,aquamarine,aqua);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 40px;
+    text-align: center;
+}

@@ -12,7 +12,7 @@ const textStatus = document.querySelector(".textStatus");
 const newDataBtn = document.querySelector(".newDataBtn");
 
 // get API資料
-fetch('http://49.159.20.233/demoapi/api/users')
+fetch('https://hyc1991.github.io/Server/')
   .then(function(response) {
     return response.json();
   })
@@ -21,7 +21,7 @@ fetch('http://49.159.20.233/demoapi/api/users')
     ary = myJson.data;
     renderData();
   });
-
+//http://49.159.20.233/demoapi/api/users
 
 // 非同步資料取得後進行渲染
 function renderData() {

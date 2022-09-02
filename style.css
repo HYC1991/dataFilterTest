@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
 li {
     width:400px;
     padding-bottom: 2px;
@@ -55,6 +54,9 @@ li {
     border: 5px solid #000079;
     border-radius: 15px;
     text-align: center;
+}
+li:hover{
+    margin-left: 10px;
 }
 .deleteBtn{
     display: block;
@@ -64,5 +66,5 @@ li {
     border-radius: 10px;
 }
 .deleteBtn:hover{
-    font-size: 10px;
+    font-size: 15px;
 }

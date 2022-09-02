@@ -103,7 +103,7 @@ list.addEventListener("click",function(e){
     console.log("您沒有點擊到按鈕");
     return;
   };
-  let num = e.target.attributes[4];
+  let num = e.target.attributes[4].value;
   ary.splice(num,1);
   reRenderData();
 });

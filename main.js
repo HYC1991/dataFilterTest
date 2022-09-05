@@ -21,7 +21,6 @@ fetch('http://49.159.20.233/demoapi/api/users')
     ary = myJson.data;
     renderData();
   });
-//
 //https://hyc1991.github.io/Server/
 
 // 非同步資料取得後進行渲染

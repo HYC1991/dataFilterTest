@@ -84,7 +84,6 @@ li {
     margin: 15px;
 }
 li:hover{
-    margin-left: 20px;
     color: yellow;
     background: linear-gradient(to right,#00644b,#009771);
 }
